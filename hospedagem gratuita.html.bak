@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hospedagem</title>
+    <meta charset="UTF-8">
+    </head>
+        <h1>Formulario</h1>
+        
+        <h2>Exemplo Text</h2>
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br>
+            <label for="sobrenome">Sobrenome:</label><br>
+            <input type="text" id="sobrenome" name="sobrenome"><br>
+            <label for="Idade">Idade:</label><br>
+            <input type="text" id="Idade" name="Idade"><br>
+            <label for="Telefone">Telefone:</label><br>
+            <input type="text" id="Telefone" name="Telefone"><br>
+        </form>
+        
+        <h2>Exemplo Radio</h2>
+        <p>Escolha o Pior time:</p>
+        
+        <form>
+            <input type="radio" id="Palmeiras" name="fav_language" value="Palmeiras">
+            <label for="Palmeiras ">Palmeiras </label><br>
+            <input type="radio" id="Santos " name="fav_language" value="Santos">
+            <label for="Santos">Santos</label><br>
+            <input type="radio" id="Flamengo" name="fav_language" value="Flamengo">
+            <label for="Flamengo">Flamengo</label><br>
+            <input type="radio" id="Corinthians " name="fav_language" value="Corinthians">
+            <label for="Corinthians">Corinthians</label><br>
+            <input type="radio" id="São Paulo" name="fav_language" value="São Paulo">
+            <label for="São Paulo">São Paulo</label><br>
+            <input type="radio" id="Cruzeiro" name="fav_language" value="Cruzeiro">
+            <label for="Cruzeiro">Cruzeiro</label><br>
+            <input type="radio" id="Fluminense" name="fav_language" value="Fluminense">
+            <label for="Fluminense">Fluminense</label><br>
+            <input type="radio" id="Vasco" name="fav_language" value="Vasco">
+            <label for="Vasco">Vasco</label><br>
+            <input type="radio" id="Internacional" name="fav_language" value="Internacional">
+            <label for="Internacional">Internacional</label><br>
+            <input type="radio" id="Grêmio" name="fav_language" value="Grêmio">
+            <label for="Grêmio">Grêmio</label><br>
+        </form>
+        
+        <h2>Exemplo checkbox</h2>
+        <p>Clique em alguma das caixinhas</p>
+        
+        <form>
+            <input type="checkbox" id="1" name="1" value="Aqui1">
+            <label for="1">Aqui</label><br>
+            <input type="checkbox" id="2" name="2" value="Aqui2">
+            <label for="1">Ou Aqui</label><br>
+            <input type="checkbox" id="3" name="3" value="Aqui3">
+            <label for="3">Ou nesse Aqui</label><br>
+                <input type="submit" value="Submit">
+        </form>
+        </form>
